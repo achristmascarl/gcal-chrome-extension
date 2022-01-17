@@ -1,0 +1,11 @@
+{
+    "name": "GCal Event Template",
+    "description": "fill templates of event details into Google Calendar",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "filler.js"
+    },
+    "permissions": ["storage", "tabs"],
+    "options_page": "options.html"
+  }
